@@ -11,3 +11,11 @@
     blue: #39b8e7;
 }
 
+.container{
+    margin: 0 auto;
+}
+
+header {
+    
+    text-align: center;
+}
