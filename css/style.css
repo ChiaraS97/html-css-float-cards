@@ -17,10 +17,13 @@
     margin: 0 auto;
     padding-top: 1.7rem;
     font-size: 1.1rem;
-    
 }
 
 header {
     color: var(--title);
     text-align: center;
+}
+
+section {
+    padding-top: 2.2em;
 }
