@@ -27,10 +27,17 @@
     
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
 /* / utility */
 
 img {
-    max-width: 100px;
+    max-width: 89px;
 }
 
 .container{
@@ -62,8 +69,10 @@ div span:last-child {
 
 .card {
     background-color: var(--black);
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 2em);
+    margin: 1rem;
 }
+
 
 
 
