@@ -12,6 +12,10 @@
     --blue: #39b8e7;
 }
 
+.debug {
+    border: 1px solid black;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -26,6 +30,7 @@ header {
 
 section {
     padding-top: 2.2em;
+    
 }
 
 .float {
