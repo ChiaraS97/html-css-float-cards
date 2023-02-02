@@ -1,8 +1,18 @@
+/* General */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
+}
+
+
+
+/* utility */
+
+.float {
+    float: left;
 }
 
 :root {
@@ -15,6 +25,9 @@
 .debug {
     border: 1px solid black;
 }
+
+
+
 
 .container{
     max-width: 1200px;
@@ -33,6 +46,14 @@ section {
     
 }
 
-.float {
-    float: left;
+span {
+    color: var(--white);
 }
+
+div span:last-child {
+    color: var(--blue);
+}
+/* .card {
+    background-color: var(--black);
+} */
+
