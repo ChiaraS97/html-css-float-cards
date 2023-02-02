@@ -24,10 +24,14 @@
 
 .debug {
     border: 1px solid black;
+    
 }
 
+/* / utility */
 
-
+img {
+    max-width: 100px;
+}
 
 .container{
     max-width: 1200px;
@@ -42,7 +46,7 @@ header {
 }
 
 section {
-    padding-top: 2.2em;
+    margin-top: 2.2em;
     
 }
 
