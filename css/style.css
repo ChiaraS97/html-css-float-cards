@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
 }
 
 :root {
-    title: #e53170;
-    black: #0f0e17;
-    white: #ffffff;
-    blue: #39b8e7;
+    --title: #e53170;
+    --black: #0f0e17;
+    --white: #ffffff;
+    --blue: #39b8e7;
 }
 
 .container{
@@ -16,6 +17,6 @@
 }
 
 header {
-    
+    color: var(--title);
     text-align: center;
 }
