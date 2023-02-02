@@ -52,6 +52,10 @@ section {
     
 }
 
+.paragraph  {
+    text-align: center;
+}
+
 span {
     display: inline-block;
     color: var(--white);
