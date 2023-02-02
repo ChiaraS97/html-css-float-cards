@@ -57,7 +57,11 @@ span {
 div span:last-child {
     color: var(--blue);
 }
-/* .card {
+
+.card {
     background-color: var(--black);
-} */
+    width: calc(100% / 3);
+}
+
+
 
