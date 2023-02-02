@@ -27,3 +27,7 @@ header {
 section {
     padding-top: 2.2em;
 }
+
+.float {
+    float: left;
+}
