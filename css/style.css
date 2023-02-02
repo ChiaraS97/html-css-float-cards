@@ -22,11 +22,6 @@
     --blue: #39b8e7;
 }
 
-.debug {
-    border: 1px solid black;
-    
-}
-
 .clearfix::after {
     content: "";
     display: table;
